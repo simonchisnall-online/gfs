@@ -1,0 +1,1736 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/punycode/1.4.1/punycode.min.js"></script>
+<script src="https://cdn.jotfor.ms/js/vendor/jquery-1.8.0.min.js?3.3.25077" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/js/vendor/autoFill.min.js?v=3.3.25077" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.25077" type="text/javascript"></script>
+<script src="https://js.jotform.com/vendor/postMessage.js?3.3.25077" type="text/javascript"></script>
+<script src="https://js.jotform.com/WidgetsServer.js?v=1619496097236" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/js/vendor/math-processor.js?v=3.3.25077" type="text/javascript"></script>
+<script type="text/javascript">
+   JotForm.setCalculations([{"decimalPlaces":"2","equation":"[{10_0}{10_1}{10_2}{10_3}{11_0}{11_1}{11_2}{11_3}{12_0}{12_1}{12_2}{12_3}{3_0}{3_1}{3_2}{3_3}]","ignoreHiddenFields":"","insertAsText":"","newCalculationType":"1","operands":"10,11,12,3","readOnly":"","replaceText":"","resultField":"18","showBeforeInput":"","showEmptyDecimals":"","useCommasForDecimals":""},{"decimalPlaces":"2","equation":"{3_0}[+{3_1}+{3_2}+{3_3}+]","ignoreHiddenFields":"","insertAsText":"","newCalculationType":"1","operands":"3","readOnly":"","replaceText":"","resultField":"21","showBeforeInput":"","showEmptyDecimals":"","useCommasForDecimals":""},{"decimalPlaces":"2","equation":"[+{3_0}+{3_1}+{3_2}+{3_3}+]","ignoreHiddenFields":"","insertAsText":"1","newCalculationType":"1","operands":"3","readOnly":"1","replaceText":"","resultField":"22","showBeforeInput":"","showEmptyDecimals":"","useCommasForDecimals":""},{"decimalPlaces":"2","equation":"[{10_0}+{10_1}+{10_2}+{10_3}+]","ignoreHiddenFields":"","insertAsText":"","newCalculationType":"1","operands":"10","readOnly":"","replaceText":"","resultField":"23","showBeforeInput":"","showEmptyDecimals":"","useCommasForDecimals":""},{"decimalPlaces":"2","equation":"[{11_0}+{11_1}+{11_2}+{11_3}+]","ignoreHiddenFields":"","insertAsText":"","newCalculationType":"1","operands":"11","readOnly":"","replaceText":"","resultField":"24","showBeforeInput":"","showEmptyDecimals":"","useCommasForDecimals":""},{"decimalPlaces":"2","equation":"[{12_0}+{12_1}+{12_2}+{12_3}+]","ignoreHiddenFields":"","insertAsText":"","newCalculationType":"1","operands":"12","readOnly":"","replaceText":"","resultField":"25","showBeforeInput":"","showEmptyDecimals":"","useCommasForDecimals":""},{"decimalPlaces":"2","equation":"[{32}+{33}+{34}+{35}+{40}+{41}+{42}+{43}+{48}+{49}+{50}+{51}+{56}+{57}+{58}+{59}]","ignoreHiddenFields":"","insertAsText":"","newCalculationType":"1","operands":"32,33,34,35,40,41,42,43,48,49,50,51,56,57,58,59","readOnly":"","replaceText":"","resultField":"26","showBeforeInput":"","showEmptyDecimals":"","useCommasForDecimals":""},{"decimalPlaces":"2","equation":"[{60}+]","ignoreHiddenFields":"","insertAsText":"","newCalculationType":"1","operands":"60","readOnly":"","replaceText":"","resultField":"32","showBeforeInput":"","showEmptyDecimals":"","useCommasForDecimals":""},{"decimalPlaces":"2","equation":"[{61}+]","ignoreHiddenFields":"","insertAsText":"","newCalculationType":"1","operands":"61","readOnly":"","replaceText":"","resultField":"33","showBeforeInput":"","showEmptyDecimals":"","useCommasForDecimals":""},{"decimalPlaces":"2","equation":"[{62}+]","ignoreHiddenFields":"","insertAsText":"","newCalculationType":"1","operands":"62","readOnly":"","replaceText":"","resultField":"34","showBeforeInput":"","showEmptyDecimals":"","useCommasForDecimals":""},{"decimalPlaces":"2","equation":"[{63}+]","ignoreHiddenFields":"","insertAsText":"","newCalculationType":"1","operands":"63","readOnly":"","replaceText":"","resultField":"35","showBeforeInput":"","showEmptyDecimals":"","useCommasForDecimals":""},{"decimalPlaces":"2","equation":"[{40}+]","ignoreHiddenFields":"","insertAsText":"","newCalculationType":"1","operands":"40","readOnly":"","replaceText":"","resultField":"40","showBeforeInput":"","showEmptyDecimals":"","useCommasForDecimals":""},{"decimalPlaces":"2","equation":"[{65}+]","ignoreHiddenFields":"","insertAsText":"","newCalculationType":"1","operands":"65","readOnly":"","replaceText":"","resultField":"41","showBeforeInput":"","showEmptyDecimals":"","useCommasForDecimals":""},{"decimalPlaces":"2","equation":"[{67}+]","ignoreHiddenFields":"","insertAsText":"","newCalculationType":"1","operands":"67","readOnly":"","replaceText":"","resultField":"43","showBeforeInput":"","showEmptyDecimals":"","useCommasForDecimals":""},{"decimalPlaces":"2","equation":"[{68}+]","ignoreHiddenFields":"","insertAsText":"","newCalculationType":"1","operands":"68","readOnly":"","replaceText":"","resultField":"48","showBeforeInput":"","showEmptyDecimals":"","useCommasForDecimals":""},{"decimalPlaces":"2","equation":"[{69}+]","ignoreHiddenFields":"","insertAsText":"","newCalculationType":"1","operands":"69","readOnly":"","replaceText":"","resultField":"49","showBeforeInput":"","showEmptyDecimals":"","useCommasForDecimals":""},{"decimalPlaces":"2","equation":"[{70}+]","ignoreHiddenFields":"","insertAsText":"","newCalculationType":"1","operands":"70","readOnly":"","replaceText":"","resultField":"50","showBeforeInput":"","showEmptyDecimals":"","useCommasForDecimals":""},{"decimalPlaces":"2","equation":"[{71}+]","ignoreHiddenFields":"","insertAsText":"","newCalculationType":"1","operands":"71","readOnly":"","replaceText":"","resultField":"51","showBeforeInput":"","showEmptyDecimals":"","useCommasForDecimals":""},{"decimalPlaces":"2","equation":"[{72}+]","ignoreHiddenFields":"","insertAsText":"","newCalculationType":"1","operands":"72","readOnly":"","replaceText":"","resultField":"56","showBeforeInput":"","showEmptyDecimals":"","useCommasForDecimals":""},{"decimalPlaces":"2","equation":"[{73}+]","ignoreHiddenFields":"","insertAsText":"","newCalculationType":"1","operands":"73","readOnly":"","replaceText":"","resultField":"57","showBeforeInput":"","showEmptyDecimals":"","useCommasForDecimals":""},{"decimalPlaces":"2","equation":"[{54}+]","ignoreHiddenFields":"","insertAsText":"","newCalculationType":"1","operands":"54","readOnly":"","replaceText":"","resultField":"58","showBeforeInput":"","showEmptyDecimals":"","useCommasForDecimals":""},{"decimalPlaces":"2","equation":"[{75}+]","ignoreHiddenFields":"","insertAsText":"","newCalculationType":"1","operands":"75","readOnly":"","replaceText":"","resultField":"59","showBeforeInput":"","showEmptyDecimals":"","useCommasForDecimals":""},{"decimalPlaces":"2","equation":"[{66}+]","ignoreHiddenFields":"","insertAsText":"","newCalculationType":"1","operands":"66","readOnly":"","replaceText":"","resultField":"42","showBeforeInput":"","showEmptyDecimals":"","useCommasForDecimals":""},{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"75","equation":"{75}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488173738063","resultField":"59","decimalPlaces":"2","isError":false,"conditionId":"1488067171989","conditionTrue":false},{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"73","equation":"{73}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488173536439","resultField":"57","decimalPlaces":"2","isError":false,"conditionId":"1488067081946","conditionTrue":false},{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"74","equation":"{74}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488173636827","resultField":"58","decimalPlaces":"2","isError":false,"conditionId":"1488067117364","conditionTrue":false},{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"72","equation":"{72}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488173438334","resultField":"56","decimalPlaces":"2","isError":false,"conditionId":"1488067042895","conditionTrue":false},{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"71","equation":"{71}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488173337737","resultField":"51","decimalPlaces":"2","isError":false,"conditionId":"1488066368397","conditionTrue":false},{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"70","equation":"{70}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488173235898","resultField":"50","decimalPlaces":"2","isError":false,"conditionId":"1488066327210","conditionTrue":false},{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"68","equation":"{68}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488173032865","resultField":"48","decimalPlaces":"2","isError":false,"conditionId":"1488066197920","conditionTrue":false},{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"69","equation":"{69}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488173133698","resultField":"49","decimalPlaces":"2","isError":false,"conditionId":"1488066241444","conditionTrue":false},{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"67","equation":"{67}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488172827549","resultField":"43","decimalPlaces":"2","isError":false,"conditionId":"1488066131139","conditionTrue":false},{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"66","equation":"{66}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488169607928","resultField":"42","decimalPlaces":"2","isError":false,"conditionId":"1488066094212","conditionTrue":false},{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"65","equation":"{65}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488169483701","resultField":"41","decimalPlaces":"2","isError":false,"conditionId":"1488066044388","conditionTrue":false},{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"62","equation":"{62}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488168006358","resultField":"34","decimalPlaces":"2","isError":false,"conditionId":"1488063107064","conditionTrue":false},{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"64","equation":"{64}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488168777879","resultField":"40","decimalPlaces":"2","isError":false,"conditionId":"1488065954456","conditionTrue":false},{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"63","equation":"{63}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488168422141","resultField":"35","decimalPlaces":"2","isError":false,"conditionId":"1488063244976","conditionTrue":false},{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"61","equation":"{61}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488167951625","resultField":"33","decimalPlaces":"2","isError":false,"conditionId":"1488062903191","conditionTrue":false},{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"60","equation":"{60}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488159500213","resultField":"32","decimalPlaces":"2","isError":false,"conditionId":"1488060373691","conditionTrue":false}]);
+   JotForm.setConditions([{"action":[{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"75","equation":"{75}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488173738063","resultField":"59","decimalPlaces":"2","isError":false,"conditionId":"1488067171989","conditionTrue":false}],"id":"1488067171989","index":"0","link":"Any","priority":"0","terms":[{"id":"term_0_1488173738063","field":"75","operator":"isFilled","value":"","isError":false}],"type":"calculation"},{"action":[{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"73","equation":"{73}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488173536439","resultField":"57","decimalPlaces":"2","isError":false,"conditionId":"1488067081946","conditionTrue":false}],"id":"1488067081946","index":"1","link":"Any","priority":"1","terms":[{"id":"term_0_1488173536439","field":"73","operator":"isFilled","value":"","isError":false}],"type":"calculation"},{"action":[{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"74","equation":"{74}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488173636827","resultField":"58","decimalPlaces":"2","isError":false,"conditionId":"1488067117364","conditionTrue":false}],"id":"1488067117364","index":"2","link":"Any","priority":"2","terms":[{"id":"term_0_1488173636827","field":"74","operator":"isFilled","value":"","isError":false}],"type":"calculation"},{"action":[{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"72","equation":"{72}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488173438334","resultField":"56","decimalPlaces":"2","isError":false,"conditionId":"1488067042895","conditionTrue":false}],"id":"1488067042895","index":"3","link":"Any","priority":"3","terms":[{"id":"term_0_1488173438334","field":"72","operator":"isFilled","value":"","isError":false}],"type":"calculation"},{"action":[{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"71","equation":"{71}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488173337737","resultField":"51","decimalPlaces":"2","isError":false,"conditionId":"1488066368397","conditionTrue":false}],"id":"1488066368397","index":"4","link":"Any","priority":"4","terms":[{"id":"term_0_1488173337737","field":"71","operator":"isFilled","value":"","isError":false}],"type":"calculation"},{"action":[{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"70","equation":"{70}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488173235898","resultField":"50","decimalPlaces":"2","isError":false,"conditionId":"1488066327210","conditionTrue":false}],"id":"1488066327210","index":"5","link":"Any","priority":"5","terms":[{"id":"term_0_1488173235898","field":"70","operator":"isFilled","value":"","isError":false}],"type":"calculation"},{"action":[{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"68","equation":"{68}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488173032865","resultField":"48","decimalPlaces":"2","isError":false,"conditionId":"1488066197920","conditionTrue":false}],"id":"1488066197920","index":"6","link":"Any","priority":"6","terms":[{"id":"term_0_1488173032865","field":"68","operator":"isFilled","value":"","isError":false}],"type":"calculation"},{"action":[{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"69","equation":"{69}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488173133698","resultField":"49","decimalPlaces":"2","isError":false,"conditionId":"1488066241444","conditionTrue":false}],"id":"1488066241444","index":"7","link":"Any","priority":"7","terms":[{"id":"term_0_1488173133698","field":"69","operator":"isFilled","value":"","isError":false}],"type":"calculation"},{"action":[{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"67","equation":"{67}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488172827549","resultField":"43","decimalPlaces":"2","isError":false,"conditionId":"1488066131139","conditionTrue":false}],"id":"1488066131139","index":"8","link":"Any","priority":"8","terms":[{"id":"term_0_1488172827549","field":"67","operator":"isFilled","value":"","isError":false}],"type":"calculation"},{"action":[{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"66","equation":"{66}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488169607928","resultField":"42","decimalPlaces":"2","isError":false,"conditionId":"1488066094212","conditionTrue":false}],"id":"1488066094212","index":"9","link":"Any","priority":"9","terms":[{"id":"term_0_1488169607928","field":"66","operator":"isFilled","value":"","isError":false}],"type":"calculation"},{"action":[{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"65","equation":"{65}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488169483701","resultField":"41","decimalPlaces":"2","isError":false,"conditionId":"1488066044388","conditionTrue":false}],"id":"1488066044388","index":"10","link":"Any","priority":"10","terms":[{"id":"term_0_1488169483701","field":"65","operator":"isFilled","value":"","isError":false}],"type":"calculation"},{"action":[{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"62","equation":"{62}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488168006358","resultField":"34","decimalPlaces":"2","isError":false,"conditionId":"1488063107064","conditionTrue":false}],"id":"1488063107064","index":"11","link":"Any","priority":"11","terms":[{"id":"term_0_1488168006358","field":"62","operator":"isFilled","value":"","isError":false}],"type":"calculation"},{"action":[{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"64","equation":"{64}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488168777879","resultField":"40","decimalPlaces":"2","isError":false,"conditionId":"1488065954456","conditionTrue":false}],"id":"1488065954456","index":"12","link":"Any","priority":"12","terms":[{"id":"term_0_1488168777879","field":"64","operator":"isFilled","value":"","isError":false}],"type":"calculation"},{"action":[{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"63","equation":"{63}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488168422141","resultField":"35","decimalPlaces":"2","isError":false,"conditionId":"1488063244976","conditionTrue":false}],"id":"1488063244976","index":"13","link":"Any","priority":"13","terms":[{"id":"term_0_1488168422141","field":"63","operator":"isFilled","value":"","isError":false}],"type":"calculation"},{"action":[{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"61","equation":"{61}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488167951625","resultField":"33","decimalPlaces":"2","isError":false,"conditionId":"1488062903191","conditionTrue":false}],"id":"1488062903191","index":"14","link":"Any","priority":"14","terms":[{"id":"term_0_1488167951625","field":"61","operator":"isFilled","value":"","isError":false}],"type":"calculation"},{"action":[{"replaceText":"","readOnly":false,"newCalculationType":true,"useCommasForDecimals":false,"operands":"60","equation":"{60}","showBeforeInput":false,"showEmptyDecimals":false,"ignoreHiddenFields":false,"insertAsText":false,"id":"action_0_1488159500213","resultField":"32","decimalPlaces":"2","isError":false,"conditionId":"1488060373691","conditionTrue":false}],"id":"1488060373691","index":"15","link":"Any","priority":"15","terms":[{"id":"term_0_1488159500213","field":"60","operator":"isFilled","value":"","isError":false}],"type":"calculation"}]);
+	JotForm.init(function(){
+if (window.JotForm && JotForm.accessible) $('input_8').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_9').setAttribute('tabindex',0);
+      JotForm.description('input_60', 'choose one answer only answer value should equal the following:<br />a. = 2<br />b. = 1<br />c. = 0<br />d. = -1<br />e. = -2');
+      JotForm.description('input_61', 'choose one answer only');
+ if (typeof wideArea !== 'undefined') { wideArea('#id_13'); }
+if (window.JotForm && JotForm.accessible) $('input_13').setAttribute('tabindex',0);
+      JotForm.setCustomHint( 'input_13', 'Next year, me and my whanau want to:' );
+
+ JotForm.formatDate({date:(new Date()), dateField:$("id_"+20)});
+	JotForm.newDefaultTheme = false;
+	JotForm.extendsNewTheme = false;
+	JotForm.newPaymentUIForNewCreatedForms = false;
+	JotForm.clearFieldOnHide="disable";
+      FormTranslation.init({"detectUserLanguage":"1","firstPageOnly":"","options":"English (New Zealand)","originalLanguage":"en-NZ","primaryLanguage":"en-NZ","saveUserLanguage":"1","showStatus":"flag-with-nation","theme":"light-theme","version":"2"});
+          JotForm.isNewSaveAndContinueLaterActive = true;
+    /*INIT-END*/
+	});
+
+   JotForm.prepareCalculationsOnTheFly([null,{"name":"heading","qid":"1","text":"WHANAU EVALUATION FORM","type":"control_head"},null,null,null,null,null,null,{"description":"","name":"clickTo8","qid":"8","subLabel":"include if this is a branch office of the organisation","text":"Name of Organisation:","type":"control_textbox"},{"description":"","name":"clickTo9","qid":"9","subLabel":"suburb, town or city","text":"Location:","type":"control_textbox"},null,null,null,{"description":"","name":"clickTo13","qid":"13","subLabel":"","text":"What are your main goals?","type":"control_textarea"},null,null,null,{"name":"submit","qid":"17","text":"Submit","type":"control_button"},null,null,{"description":"","name":"date20","qid":"20","text":"Todays Date","type":"control_datetime"},null,null,null,null,null,{"description":"","name":"total","qid":"26","subLabel":"","text":"Total","type":"control_calculation"},null,null,null,null,null,{"description":"","name":"calculation","qid":"32","subLabel":"","text":"answer value for Q1","type":"control_calculation"},{"description":"","name":"calculation33","qid":"33","subLabel":"","text":"answer value for Q2","type":"control_calculation"},{"description":"","name":"calculation34","qid":"34","subLabel":"","text":"answer value for Q3.","type":"control_calculation"},{"description":"","name":"calculation35","qid":"35","subLabel":"","text":"answer value for Q4.","type":"control_calculation"},null,null,null,null,{"description":"","name":"calculation40","qid":"40","subLabel":"","text":"answer value for Q5.","type":"control_calculation"},{"description":"","name":"answerValue","qid":"41","subLabel":"","text":"answer value for Q6.","type":"control_calculation"},{"description":"","name":"answerValue42","qid":"42","subLabel":"","text":"answer value for Q7.","type":"control_calculation"},{"description":"","name":"answerValue43","qid":"43","subLabel":"","text":"answer value for Q8.","type":"control_calculation"},null,null,null,null,{"description":"","name":"calculation48","qid":"48","subLabel":"","text":"answer value for Q9.","type":"control_calculation"},{"description":"","name":"answerValue49","qid":"49","subLabel":"","text":"answer value for Q10.","type":"control_calculation"},{"description":"","name":"answerValue50","qid":"50","subLabel":"","text":"answer value for Q11.","type":"control_calculation"},{"description":"","name":"answerValue51","qid":"51","subLabel":"","text":"answer value for Q12","type":"control_calculation"},null,null,null,null,{"description":"","name":"answerValue56","qid":"56","subLabel":"","text":"answer value for Q13","type":"control_calculation"},{"description":"","name":"answerValue57","qid":"57","subLabel":"","text":"answer value for Q14","type":"control_calculation"},{"description":"","name":"answerValue58","qid":"58","subLabel":"","text":"answer value for Q15","type":"control_calculation"},{"description":"","name":"answerValue59","qid":"59","subLabel":"","text":"answer value for Q16","type":"control_calculation"},{"description":"choose one answer only answer value should equal the following:\na. = 2\nb. = 1\nc. = 0\nd. = -1\ne. = -2","name":"clickTo","qid":"60","text":"by using this service do you feel you have more faith in others","type":"control_checkbox"},{"description":"choose one answer only","name":"byUsing61","qid":"61","text":"by using this service do you feel stronger in your identity","type":"control_checkbox"},{"description":"","name":"clickTo62","qid":"62","text":"by using this service do you feel more hopeful about the future","type":"control_checkbox"},{"description":"","name":"byUsing63","qid":"63","text":"by using this service do you feel spiritually stronger","type":"control_checkbox"},{"description":"","name":"byUsing64","qid":"64","text":"by using this service do you feel more able to set goals","type":"control_checkbox"},{"description":"","name":"clickTo65","qid":"65","text":"by using this service do you feel more valued as a person","type":"control_checkbox"},{"description":"","name":"clickTo66","qid":"66","text":"by using this service do you feel more able to deal with challenges","type":"control_checkbox"},{"description":"","name":"clickTo67","qid":"67","text":"by using this service do you feel more informed to make decisions","type":"control_checkbox"},{"description":"","name":"byUsing68","qid":"68","text":"by using this service are you more able to participate","type":"control_checkbox"},{"description":"","name":"byUsing","qid":"69","text":"by using this service are you more able to manage barriers","type":"control_checkbox"},{"description":"","name":"byUsing70","qid":"70","text":"by using this service are you more committed to your wellbeing","type":"control_checkbox"},{"description":"","name":"byUsing71","qid":"71","text":"by using this service are you more physically healthier","type":"control_checkbox"},{"description":"","name":"byUsing72","qid":"72","text":"by using this service are you more able to communicate with your whanau","type":"control_checkbox"},{"description":"","name":"clickTo73","qid":"73","text":"by using this service are you more confident in your relationships","type":"control_checkbox"},{"description":"","name":"clickTo74","qid":"74","text":"by using this service are you clearer about how your decisions involve your whanau","type":"control_checkbox"},{"description":"","name":"clickTo75","qid":"75","text":"by using this service are you more able to participate in the community","type":"control_checkbox"},{"name":"clickTo76","qid":"76","text":"Click here to view questions","type":"control_collapse"},null,{"name":"clickHere","qid":"78","text":"Click here to view questions","type":"control_collapse"},null,null,null,{"name":"clickTo82","qid":"82","text":"Click here to view questions","type":"control_collapse"},{"name":"clickTo83","qid":"83","text":"Submit","type":"control_collapse"},{"name":"clickTo84","qid":"84","text":"Click here to view questions","type":"control_collapse"},{"name":"clickTo85","qid":"85","text":"Click here to view questions","type":"control_collapse"},{"name":"clickTo86","qid":"86","text":"","type":"control_widget"},{"description":"","name":"email","qid":"87","subLabel":"example@example.com","text":"Email","type":"control_email"}]);
+   setTimeout(function() {
+JotForm.paymentExtrasOnTheFly([null,{"name":"heading","qid":"1","text":"WHANAU EVALUATION FORM","type":"control_head"},null,null,null,null,null,null,{"description":"","name":"clickTo8","qid":"8","subLabel":"include if this is a branch office of the organisation","text":"Name of Organisation:","type":"control_textbox"},{"description":"","name":"clickTo9","qid":"9","subLabel":"suburb, town or city","text":"Location:","type":"control_textbox"},null,null,null,{"description":"","name":"clickTo13","qid":"13","subLabel":"","text":"What are your main goals?","type":"control_textarea"},null,null,null,{"name":"submit","qid":"17","text":"Submit","type":"control_button"},null,null,{"description":"","name":"date20","qid":"20","text":"Todays Date","type":"control_datetime"},null,null,null,null,null,{"description":"","name":"total","qid":"26","subLabel":"","text":"Total","type":"control_calculation"},null,null,null,null,null,{"description":"","name":"calculation","qid":"32","subLabel":"","text":"answer value for Q1","type":"control_calculation"},{"description":"","name":"calculation33","qid":"33","subLabel":"","text":"answer value for Q2","type":"control_calculation"},{"description":"","name":"calculation34","qid":"34","subLabel":"","text":"answer value for Q3.","type":"control_calculation"},{"description":"","name":"calculation35","qid":"35","subLabel":"","text":"answer value for Q4.","type":"control_calculation"},null,null,null,null,{"description":"","name":"calculation40","qid":"40","subLabel":"","text":"answer value for Q5.","type":"control_calculation"},{"description":"","name":"answerValue","qid":"41","subLabel":"","text":"answer value for Q6.","type":"control_calculation"},{"description":"","name":"answerValue42","qid":"42","subLabel":"","text":"answer value for Q7.","type":"control_calculation"},{"description":"","name":"answerValue43","qid":"43","subLabel":"","text":"answer value for Q8.","type":"control_calculation"},null,null,null,null,{"description":"","name":"calculation48","qid":"48","subLabel":"","text":"answer value for Q9.","type":"control_calculation"},{"description":"","name":"answerValue49","qid":"49","subLabel":"","text":"answer value for Q10.","type":"control_calculation"},{"description":"","name":"answerValue50","qid":"50","subLabel":"","text":"answer value for Q11.","type":"control_calculation"},{"description":"","name":"answerValue51","qid":"51","subLabel":"","text":"answer value for Q12","type":"control_calculation"},null,null,null,null,{"description":"","name":"answerValue56","qid":"56","subLabel":"","text":"answer value for Q13","type":"control_calculation"},{"description":"","name":"answerValue57","qid":"57","subLabel":"","text":"answer value for Q14","type":"control_calculation"},{"description":"","name":"answerValue58","qid":"58","subLabel":"","text":"answer value for Q15","type":"control_calculation"},{"description":"","name":"answerValue59","qid":"59","subLabel":"","text":"answer value for Q16","type":"control_calculation"},{"description":"choose one answer only answer value should equal the following:\na. = 2\nb. = 1\nc. = 0\nd. = -1\ne. = -2","name":"clickTo","qid":"60","text":"by using this service do you feel you have more faith in others","type":"control_checkbox"},{"description":"choose one answer only","name":"byUsing61","qid":"61","text":"by using this service do you feel stronger in your identity","type":"control_checkbox"},{"description":"","name":"clickTo62","qid":"62","text":"by using this service do you feel more hopeful about the future","type":"control_checkbox"},{"description":"","name":"byUsing63","qid":"63","text":"by using this service do you feel spiritually stronger","type":"control_checkbox"},{"description":"","name":"byUsing64","qid":"64","text":"by using this service do you feel more able to set goals","type":"control_checkbox"},{"description":"","name":"clickTo65","qid":"65","text":"by using this service do you feel more valued as a person","type":"control_checkbox"},{"description":"","name":"clickTo66","qid":"66","text":"by using this service do you feel more able to deal with challenges","type":"control_checkbox"},{"description":"","name":"clickTo67","qid":"67","text":"by using this service do you feel more informed to make decisions","type":"control_checkbox"},{"description":"","name":"byUsing68","qid":"68","text":"by using this service are you more able to participate","type":"control_checkbox"},{"description":"","name":"byUsing","qid":"69","text":"by using this service are you more able to manage barriers","type":"control_checkbox"},{"description":"","name":"byUsing70","qid":"70","text":"by using this service are you more committed to your wellbeing","type":"control_checkbox"},{"description":"","name":"byUsing71","qid":"71","text":"by using this service are you more physically healthier","type":"control_checkbox"},{"description":"","name":"byUsing72","qid":"72","text":"by using this service are you more able to communicate with your whanau","type":"control_checkbox"},{"description":"","name":"clickTo73","qid":"73","text":"by using this service are you more confident in your relationships","type":"control_checkbox"},{"description":"","name":"clickTo74","qid":"74","text":"by using this service are you clearer about how your decisions involve your whanau","type":"control_checkbox"},{"description":"","name":"clickTo75","qid":"75","text":"by using this service are you more able to participate in the community","type":"control_checkbox"},{"name":"clickTo76","qid":"76","text":"Click here to view questions","type":"control_collapse"},null,{"name":"clickHere","qid":"78","text":"Click here to view questions","type":"control_collapse"},null,null,null,{"name":"clickTo82","qid":"82","text":"Click here to view questions","type":"control_collapse"},{"name":"clickTo83","qid":"83","text":"Submit","type":"control_collapse"},{"name":"clickTo84","qid":"84","text":"Click here to view questions","type":"control_collapse"},{"name":"clickTo85","qid":"85","text":"Click here to view questions","type":"control_collapse"},{"name":"clickTo86","qid":"86","text":"","type":"control_widget"},{"description":"","name":"email","qid":"87","subLabel":"example@example.com","text":"Email","type":"control_email"}]);}, 20); 
+</script>
+<link href="https://cdn.jotfor.ms/static/formCss.css?3.3.25077" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/nova.css?3.3.25077" />
+<link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.25077" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/themes/CSS/566a91c2977cdfcd478b4567.css?themeRevisionID=58a447c19a11c7fa688b4569"/>
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/payment/payment_feature.css?3.3.25077" />
+<style type="text/css">
+@import '//fonts.googleapis.com/css?family=Lato:light,lightitalic,normal,italic,bold,bolditalic';
+
+    .form-label-left{
+        width:150px;
+    }
+    .form-line{
+        padding-top:12px;
+        padding-bottom:12px;
+    }
+    .form-label-right{
+        width:150px;
+    }
+    .form-all{
+        width:690px;
+        color:#000000 !important;
+        font-family:'Lato';
+        font-size:22px;
+    }
+</style>
+
+<style type="text/css" id="form-designer-style">
+    /* Injected CSS Code */
+@import "https://fonts.googleapis.com/css?family=Lato:light,lightitalic,normal,italic,bold,bolditalic";
+.form-all:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.form-all {
+  font-family: "Lato", sans-serif;
+}
+.form-all {
+  width: 690px;
+}
+.form-label-left,
+.form-label-right {
+  width: 150px;
+}
+.form-label {
+  white-space: normal;
+}
+.form-label.form-label-auto {
+  display: block;
+  float: none;
+  text-align: left;
+}
+.form-label-left {
+  display: inline-block;
+  white-space: normal;
+  float: left;
+  text-align: left;
+}
+.form-label-right {
+  display: inline-block;
+  white-space: normal;
+  float: left;
+  text-align: right;
+}
+.form-label-top {
+  white-space: normal;
+  display: block;
+  float: none;
+  text-align: left;
+}
+.form-radio-item label:before {
+  top: 0;
+}
+.form-all {
+  font-size: 20px;
+}
+.form-label {
+  font-weight: bold;
+}
+.form-checkbox-item label,
+.form-radio-item label {
+  font-weight: normal;
+}
+.supernova {
+  background-color: #ffffff;
+}
+.supernova body {
+  background-color: transparent;
+}
+/*
+@width30: (unit(@formWidth, px) + 60px);
+@width60: (unit(@formWidth, px)+ 120px);
+@width90: (unit(@formWidth, px)+ 180px);
+*/
+/* | */
+@media screen and (min-width: 480px) {
+  .supernova .form-all {
+    border: 1px solid #e6e6e6;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.1);
+  }
+}
+/* | */
+/* | */
+@media screen and (max-width: 480px) {
+  .jotform-form .form-all {
+    margin: 0;
+    width: 100%;
+  }
+}
+/* | */
+/* | */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .jotform-form .form-all {
+    margin: 0;
+    width: 100%;
+  }
+}
+/* | */
+/* | */
+@media screen and (min-width: 480px) and (max-width: 689px) {
+  .jotform-form .form-all {
+    margin: 0;
+    width: 100%;
+  }
+}
+/* | */
+/* | */
+@media screen and (min-width: 768px) {
+  .jotform-form {
+    padding: 60px 0;
+  }
+}
+/* | */
+/* | */
+@media screen and (max-width: 689px) {
+  .jotform-form .form-all {
+    margin: 0;
+    width: 100%;
+  }
+}
+/* | */
+.supernova .form-all,
+.form-all {
+  background-color: #ffffff;
+  border: 1px solid transparent;
+}
+.form-header-group {
+  border-color: #e6e6e6;
+}
+.form-matrix-table tr {
+  border-color: #e6e6e6;
+}
+.form-matrix-table tr:nth-child(2n) {
+  background-color: #f2f2f2;
+}
+.form-all {
+  color: #555555;
+}
+.form-header-group .form-header {
+  color: #555555;
+}
+.form-header-group .form-subHeader {
+  color: #6f6f6f;
+}
+.form-sub-label {
+  color: #6f6f6f;
+}
+.form-label-top,
+.form-label-left,
+.form-label-right,
+.form-html {
+  color: #555555;
+}
+.form-checkbox-item label,
+.form-radio-item label {
+  color: #6f6f6f;
+}
+.form-line.form-line-active {
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -ms-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease;
+  -moz-transition-timing-function: ease;
+  -ms-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+  background-color: #ffffe0;
+}
+/* omer */
+.form-radio-item,
+.form-checkbox-item {
+  padding-bottom: 0px !important;
+}
+.form-radio-item:last-child,
+.form-checkbox-item:last-child {
+  padding-bottom: 0;
+}
+/* omer */
+.form-single-column .form-checkbox-item,
+.form-single-column .form-radio-item {
+  width: 100%;
+}
+.supernova {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center top;
+  background-repeat: repeat;
+}
+.supernova {
+  background-image: none;
+}
+#stage {
+  background-image: none;
+}
+/* | */
+.form-all {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center top;
+  background-repeat: repeat;
+}
+.form-header-group {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center top;
+}
+.form-line {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.form-line {
+  padding: 12px 36px;
+}
+.form-all .qq-upload-button,
+.form-all .form-submit-button,
+.form-all .form-submit-reset,
+.form-all .form-submit-print {
+  font-size: 1em;
+  padding: 9px 15px;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+}
+.form-all .form-pagebreak-back,
+.form-all .form-pagebreak-next {
+  font-size: 1em;
+  padding: 9px 15px;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+}
+/*
+& when ( @buttonFontType = google ) {
+	@import (css) "@{buttonFontLink}";
+}
+*/
+h2.form-header {
+  line-height: 1.618em;
+  font-size: 1.714em;
+}
+h2 ~ .form-subHeader {
+  line-height: 1.5em;
+  font-size: 1.071em;
+}
+.form-header-group {
+  text-align: left;
+}
+/*.form-dropdown,
+.form-radio-item,
+.form-checkbox-item,
+.form-radio-other-input,
+.form-checkbox-other-input,*/
+.form-captcha input,
+.form-spinner input,
+.form-error-message {
+  padding: 4px 3px 2px 3px;
+}
+.form-header-group {
+  font-family: "Lato", sans-serif;
+}
+.form-section {
+  padding: 0px 0px 0px 0px;
+}
+.form-header-group {
+  margin: 12px 36px 12px 36px;
+}
+.form-header-group {
+  padding: 24px 0px 24px 0px;
+}
+.form-textbox,
+.form-textarea {
+  padding: 4px 3px 2px 3px;
+}
+[data-type="control_dropdown"] .form-input,
+[data-type="control_dropdown"] .form-input-wide {
+  width: 150px;
+}
+.form-label {
+  font-family: "Lato", sans-serif;
+}
+li[data-type="control_image"] div {
+  text-align: left;
+}
+li[data-type="control_image"] img {
+  border: none;
+  border-width: 0px !important;
+  border-style: solid !important;
+  border-color: false !important;
+}
+.form-line-column {
+  width: auto;
+}
+.form-line-error {
+  overflow: hidden;
+  -webkit-transition-property: none;
+  -moz-transition-property: none;
+  -ms-transition-property: none;
+  -o-transition-property: none;
+  transition-property: none;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease;
+  -moz-transition-timing-function: ease;
+  -ms-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+  background-color: #fff4f4;
+}
+.form-line-error .form-error-message {
+  background-color: #ff3200;
+  clear: both;
+  float: none;
+}
+.form-line-error .form-error-message .form-error-arrow {
+  border-bottom-color: #ff3200;
+}
+.form-line-error input:not(#coupon-input),
+.form-line-error textarea,
+.form-line-error .form-validation-error {
+  border: 1px solid #ff3200;
+  -webkit-box-shadow: 0 0 3px #ff3200;
+  -moz-box-shadow: 0 0 3px #ff3200;
+  box-shadow: 0 0 3px #ff3200;
+}
+.form-all {
+  position: relative;
+}
+.form-all:before {
+  content: "";
+  background-image: url("//www.jotform.com/images/form-cover-default.png");
+  display: inline-block;
+  height: 100px;
+  position: absolute;
+  background-size: 207px 100px;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.form-all {
+  margin-top: 105px !important;
+}
+.form-all:before {
+  top: -105px;
+  left: 0;
+  background-position: top left;
+}
+.ie-8 .form-all {
+  margin-top: auto;
+  margin-top: initial;
+}
+.ie-8 .form-all:before {
+  display: none;
+}
+/* | */
+@media screen and (max-width: 480px), screen and (max-device-width: 767px) and (orientation: portrait), screen and (max-device-width: 415px) and (orientation: landscape) {
+  .testOne {
+    letter-spacing: 0;
+  }
+  .form-all {
+    border: 0;
+    max-width: initial;
+  }
+  .form-sub-label-container {
+    width: 100%;
+    margin: 0;
+    margin-right: 0;
+    float: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  span.form-sub-label-container + span.form-sub-label-container {
+    margin-right: 0;
+  }
+  .form-sub-label {
+    white-space: normal;
+  }
+  .form-address-table td,
+  .form-address-table th {
+    padding: 0 1px 10px;
+  }
+  .form-submit-button,
+  .form-submit-print,
+  .form-submit-reset {
+    width: 100%;
+    margin-left: 0!important;
+  }
+  div[id*=at_] {
+    font-size: 14px;
+    font-weight: 700;
+    height: 8px;
+    margin-top: 6px;
+  }
+  .showAutoCalendar {
+    width: 20px;
+  }
+  img.form-image {
+    max-width: 100%;
+    height: auto;
+  }
+  .form-matrix-row-headers {
+    width: 100%;
+    word-break: break-all;
+    min-width: 40px;
+  }
+  .form-collapse-table,
+  .form-header-group {
+    margin: 0;
+  }
+  .form-collapse-table {
+    height: 100%;
+    display: inline-block;
+    width: 100%;
+  }
+  .form-collapse-hidden {
+    display: none !important;
+  }
+  .form-input {
+    width: 100%;
+  }
+  .form-label {
+    width: 100% !important;
+  }
+  .form-label-left,
+  .form-label-right {
+    display: block;
+    float: none;
+    text-align: left;
+    width: auto!important;
+  }
+  .form-line,
+  .form-line.form-line-column {
+    padding: 2% 5%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  input[type=text],
+  input[type=email],
+  input[type=tel],
+  textarea {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: initial !important;
+  }
+  .form-dropdown,
+  .form-textarea,
+  .form-textbox {
+    width: 100%!important;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .form-input,
+  .form-input-wide,
+  .form-textarea,
+  .form-textbox,
+  .form-dropdown {
+    max-width: initial!important;
+  }
+  .form-address-city,
+  .form-address-line,
+  .form-address-postal,
+  .form-address-state,
+  .form-address-table,
+  .form-address-table .form-sub-label-container,
+  .form-address-table select,
+  .form-input {
+    width: 100%;
+  }
+  div.form-header-group {
+    padding: 24px 0px !important;
+    margin: 0 12px 2% !important;
+    margin-left: 5%!important;
+    margin-right: 5%!important;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  div.form-header-group.hasImage img {
+    max-width: 100%;
+  }
+  [data-type="control_button"] {
+    margin-bottom: 0 !important;
+  }
+  [data-type=control_fullname] .form-sub-label-container {
+    width: 48%;
+  }
+  [data-type=control_fullname] .form-sub-label-container:first-child {
+    margin-right: 4%;
+  }
+  [data-type=control_phone] .form-sub-label-container {
+    width: 65%;
+  }
+  [data-type=control_phone] .form-sub-label-container:first-child {
+    width: 31%;
+    margin-right: 4%;
+  }
+  [data-type=control_datetime] .form-sub-label-container + .form-sub-label-container,
+  [data-type=control_datetime] .form-sub-label-container:first-child {
+    width: 27.3%;
+    margin-right: 6%;
+  }
+  [data-type=control_datetime] .form-sub-label-container + .form-sub-label-container + .form-sub-label-container {
+    width: 33.3%;
+    margin-right: 0;
+  }
+  [data-type=control_datetime] span + span + span > span:first-child {
+    display: block;
+    width: 100% !important;
+  }
+  [data-type=control_birthdate] .form-sub-label-container,
+  [data-type=control_datetime] span + span + span > span:first-child + span + span,
+  [data-type=control_time] .form-sub-label-container {
+    width: 27.3%!important;
+    margin-right: 6% !important;
+  }
+  [data-type=control_birthdate] .form-sub-label-container:last-child,
+  [data-type=control_time] .form-sub-label-container:last-child {
+    width: 33.3%!important;
+    margin-right: 0 !important;
+  }
+  .form-pagebreak-back-container,
+  .form-pagebreak-next-container {
+    width: 50% !important;
+  }
+  .form-pagebreak-back,
+  .form-pagebreak-next,
+  .form-product-item.hover-product-item {
+    width: 100%;
+  }
+  .form-pagebreak-back-container {
+    padding: 0;
+    text-align: right;
+  }
+  .form-pagebreak-next-container {
+    padding: 0;
+    text-align: left;
+  }
+  .form-pagebreak {
+    margin: 0 auto;
+  }
+  .form-buttons-wrapper {
+    margin: 0!important;
+    margin-left: 0!important;
+  }
+  .form-buttons-wrapper button {
+    width: 100%;
+  }
+  .form-buttons-wrapper .form-submit-print {
+    margin: 0 !important;
+  }
+  table {
+    width: 100%!important;
+    max-width: initial!important;
+  }
+  table td + td {
+    padding-left: 3%;
+  }
+  .form-checkbox-item,
+  .form-radio-item {
+    white-space: normal!important;
+  }
+  .form-checkbox-item input,
+  .form-radio-item input {
+    width: auto;
+  }
+  .form-collapse-table {
+    margin: 0 5%;
+    display: block;
+    zoom: 1;
+    width: auto;
+  }
+  .form-collapse-table:before,
+  .form-collapse-table:after {
+    display: table;
+    content: '';
+    line-height: 0;
+  }
+  .form-collapse-table:after {
+    clear: both;
+  }
+  .fb-like-box {
+    width: 98% !important;
+  }
+  .form-error-message {
+    clear: both;
+    bottom: -10px;
+  }
+  .date-separate,
+  .phone-separate {
+    display: none;
+  }
+  .custom-field-frame,
+  .direct-embed-widgets,
+  .signature-pad-wrapper {
+    width: 100% !important;
+  }
+}
+/* | */
+
+/*PREFERENCES STYLE*/
+    .form-all {
+      font-family: Lato, sans-serif;
+    }
+    .form-all .qq-upload-button,
+    .form-all .form-submit-button,
+    .form-all .form-submit-reset,
+    .form-all .form-submit-print {
+      font-family: Lato, sans-serif;
+    }
+    .form-all .form-pagebreak-back-container,
+    .form-all .form-pagebreak-next-container {
+      font-family: Lato, sans-serif;
+    }
+    .form-header-group {
+      font-family: Lato, sans-serif;
+    }
+    .form-label {
+      font-family: Lato, sans-serif;
+    }
+  
+    .form-label.form-label-auto {
+      
+    display: block;
+    float: none;
+    text-align: left;
+    width: 100%;
+  
+    }
+  
+    .form-line {
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+  
+    .form-all {
+      max-width: 690px;
+      width: 100%;
+    }
+  
+    .form-label.form-label-left,
+    .form-label.form-label-right,
+    .form-label.form-label-left.form-label-auto,
+    .form-label.form-label-right.form-label-auto {
+      width: 150px;
+    }
+  
+    .form-all {
+      font-size: 22px
+    }
+    .form-all .qq-upload-button,
+    .form-all .qq-upload-button,
+    .form-all .form-submit-button,
+    .form-all .form-submit-reset,
+    .form-all .form-submit-print {
+      font-size: 22px
+    }
+    .form-all .form-pagebreak-back-container,
+    .form-all .form-pagebreak-next-container {
+      font-size: 22px
+    }
+  
+    .supernova .form-all, .form-all {
+      background-color: #EFFAB4;
+    }
+  
+    .form-all {
+      color: #000000;
+    }
+    .form-header-group .form-header {
+      color: #000000;
+    }
+    .form-header-group .form-subHeader {
+      color: #000000;
+    }
+    .form-label-top,
+    .form-label-left,
+    .form-label-right,
+    .form-html,
+    .form-checkbox-item label,
+    .form-radio-item label {
+      color: #000000;
+    }
+    .form-sub-label {
+      color: #1a1a1a;
+    }
+  
+    .supernova {
+      background-color: #D1F2A5;
+    }
+    .supernova body {
+      background: transparent;
+    }
+  
+    .form-textbox,
+    .form-textarea,
+    .form-dropdown,
+    .form-radio-other-input,
+    .form-checkbox-other-input,
+    .form-captcha input,
+    .form-spinner input {
+      background-color: #fff;
+    }
+  
+    .supernova {
+      background-image: none;
+    }
+    #stage {
+      background-image: none;
+    }
+  
+    .form-all {
+      background-image: none;
+    }
+  
+  .ie-8 .form-all:before { display: none; }
+  .ie-8 {
+    margin-top: auto;
+    margin-top: initial;
+  }
+  .form-all:before { display : none; } .form-all { margin-top: 0 !important; }
+  /*PREFERENCES STYLE*//*__INSPECT_SEPERATOR__*/
+
+    /* Injected CSS Code */
+</style>
+
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/buttons/form-submit-button-simple_black.css?3.3.25077"/>
+<form class="jotform-form" action="https://submit.jotform.co/submit/72004016693853/" method="post" name="form_72004016693853" id="72004016693853" accept-charset="utf-8" autocomplete="on">
+  <input type="hidden" name="formID" value="72004016693853" />
+  <input type="hidden" id="JWTContainer" value="" />
+  <input type="hidden" id="cardinalOrderNumber" value="" />
+  <div role="main" class="form-all">
+    <link type="text/css" rel="stylesheet" media="all" href="https://cdn.jotfor.ms/wizards/languageWizard/custom-dropdown/css/lang-dd.css?3.3.25077" />
+    <div class="cont">
+      <input type="text" id="input_language" name="input_language" style="display:none" />
+      <div class="language-dd" id="langDd" style="display:none">
+        <div class="dd-placeholder lang-emp">
+          Language
+        </div>
+        <ul class="lang-list dn" id="langList">
+          <li data-lang="en-NZ" class="en-NZ">
+            English (New Zealand)
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script type="text/javascript" src="https://cdn.jotfor.ms/js/formTranslation.v2.js?3.3.25077"></script>
+    <ul class="form-section page-section">
+      <li id="cid_1" class="form-input-wide" data-type="control_head">
+        <div class="form-header-group  header-default">
+          <div class="header-text httac htvam">
+            <h2 id="header_1" class="form-header" data-component="header">
+              WHANAU EVALUATION FORM
+            </h2>
+            <div id="subHeader_1" class="form-subHeader">
+              Have your say!
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="form-line always-hidden" data-type="control_widget" id="id_86">
+        <div id="cid_86" class=" always-hidden">
+          <div style="width:100%;text-align:Left" data-component="widget-directEmbed">
+            <div class="direct-embed-widgets mobile-responsive-widget " data-type="direct-embed" style="width:1px;min-height:1px">
+              <script type="text/javascript" src="https://widgets.jotform.io/mobileResponsive/mobile.responsive.js"></script>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_textbox" id="id_8">
+        <label class="form-label form-label-top form-label-auto" id="label_8" for="input_8">
+          Name of Organisation:
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_8" class="form-input-wide jf-required">
+          <span class="form-sub-label-container" style="vertical-align:top">
+            <input type="text" id="input_8" name="q8_clickTo8" data-type="input-textbox" class="form-textbox validate[required]" size="50" value="" maxLength="50" data-component="textbox" aria-labelledby="label_8 sublabel_input_8" required="" />
+            <label class="form-sub-label" for="input_8" id="sublabel_input_8" style="min-height:13px" aria-hidden="false"> include if this is a branch office of the organisation </label>
+          </span>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_textbox" id="id_9">
+        <label class="form-label form-label-top form-label-auto" id="label_9" for="input_9">
+          Location:
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_9" class="form-input-wide jf-required">
+          <span class="form-sub-label-container" style="vertical-align:top">
+            <input type="text" id="input_9" name="q9_clickTo9" data-type="input-textbox" class="form-textbox validate[required]" size="50" value="" maxLength="60" data-component="textbox" aria-labelledby="label_9 sublabel_input_9" required="" />
+            <label class="form-sub-label" for="input_9" id="sublabel_input_9" style="min-height:13px" aria-hidden="false"> suburb, town or city </label>
+          </span>
+        </div>
+      </li>
+      <ul class="form-section-closed" style="height: 60px;clear:both;" id="section_76">
+        <li id="cid_76" class="form-input-wide" data-type="control_collapse">
+          <div class="form-collapse-table" id="collapse_76" data-component="collapse">
+            <span class="form-collapse-mid" id="collapse-text_76">
+              Click here to view questions
+            </span>
+            <span class="form-collapse-right form-collapse-right-hide">
+               
+            </span>
+          </div>
+        </li>
+        <li class="form-line" data-type="control_checkbox" id="id_60">
+          <label class="form-label form-label-top form-label-auto" id="label_60" for="input_60"> by using this service do you feel you have more faith in others </label>
+          <div id="cid_60" class="form-input-wide">
+            <div class="form-single-column" role="group" aria-labelledby="label_60" data-component="checkbox">
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox" id="input_60_0" name="q60_clickTo[]" value="a. much more" data-calcvalue="2" />
+                <label id="label_input_60_0" for="input_60_0"> a. much more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox" id="input_60_1" name="q60_clickTo[]" value="b. more" data-calcvalue="1" />
+                <label id="label_input_60_1" for="input_60_1"> b. more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox" id="input_60_2" name="q60_clickTo[]" value="c. no change" data-calcvalue="0" />
+                <label id="label_input_60_2" for="input_60_2"> c. no change </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox" id="input_60_3" name="q60_clickTo[]" value="d. less" data-calcvalue="-1" />
+                <label id="label_input_60_3" for="input_60_3"> d. less </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox" id="input_60_4" name="q60_clickTo[]" value="e. much less" data-calcvalue="-2" />
+                <label id="label_input_60_4" for="input_60_4"> e. much less </label>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="form-line form-line-column form-col-1 always-hidden" data-type="control_calculation" id="id_32">
+          <label class="form-label form-label-top" id="label_32" for="input_32"> answer value for Q1 </label>
+          <div id="cid_32" class="form-input-wide always-hidden">
+            <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox" data-type="input-textbox" id="input_32" name="q32_calculation" value="0" size="3" />
+          </div>
+        </li>
+        <li class="form-line" data-type="control_checkbox" id="id_61">
+          <label class="form-label form-label-top form-label-auto" id="label_61" for="input_61"> by using this service do you feel stronger in your identity </label>
+          <div id="cid_61" class="form-input-wide">
+            <div class="form-single-column" role="group" aria-labelledby="label_61" data-component="checkbox">
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_61_0" name="q61_byUsing61[]" value="a. much more" data-calcvalue="2" data-maxselection="1" />
+                <label id="label_input_61_0" for="input_61_0"> a. much more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_61_1" name="q61_byUsing61[]" value="b. more" data-calcvalue="1" data-maxselection="1" />
+                <label id="label_input_61_1" for="input_61_1"> b. more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_61_2" name="q61_byUsing61[]" value="c. no change" data-calcvalue="0" data-maxselection="1" />
+                <label id="label_input_61_2" for="input_61_2"> c. no change </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_61_3" name="q61_byUsing61[]" value="d. less" data-calcvalue="-1" data-maxselection="1" />
+                <label id="label_input_61_3" for="input_61_3"> d. less </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_61_4" name="q61_byUsing61[]" value="e. much less" data-calcvalue="-2" data-maxselection="1" />
+                <label id="label_input_61_4" for="input_61_4"> e. much less </label>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="form-line form-line-column form-col-1 form-line-column-clear always-hidden" data-type="control_calculation" id="id_33">
+          <label class="form-label form-label-top" id="label_33" for="input_33"> answer value for Q2 </label>
+          <div id="cid_33" class="form-input-wide always-hidden">
+            <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox" data-type="input-textbox" id="input_33" name="q33_calculation33" value="0" size="3" />
+          </div>
+        </li>
+        <li class="form-line" data-type="control_checkbox" id="id_62">
+          <label class="form-label form-label-top form-label-auto" id="label_62" for="input_62"> by using this service do you feel more hopeful about the future </label>
+          <div id="cid_62" class="form-input-wide">
+            <div class="form-single-column" role="group" aria-labelledby="label_62" data-component="checkbox">
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_62_0" name="q62_clickTo62[]" value="a. much more" data-calcvalue="2" data-maxselection="1" />
+                <label id="label_input_62_0" for="input_62_0"> a. much more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_62_1" name="q62_clickTo62[]" value="b. more" data-calcvalue="1" data-maxselection="1" />
+                <label id="label_input_62_1" for="input_62_1"> b. more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_62_2" name="q62_clickTo62[]" value="c. no change" data-calcvalue="0" data-maxselection="1" />
+                <label id="label_input_62_2" for="input_62_2"> c. no change </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_62_3" name="q62_clickTo62[]" value="d. less" data-calcvalue="-1" data-maxselection="1" />
+                <label id="label_input_62_3" for="input_62_3"> d. less </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_62_4" name="q62_clickTo62[]" value="e. much less" data-calcvalue="-2" data-maxselection="1" />
+                <label id="label_input_62_4" for="input_62_4"> e. much less </label>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="form-line form-line-column form-col-1 always-hidden" data-type="control_calculation" id="id_34">
+          <label class="form-label form-label-top" id="label_34" for="input_34"> answer value for Q3. </label>
+          <div id="cid_34" class="form-input-wide always-hidden">
+            <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox" data-type="input-textbox" id="input_34" name="q34_calculation34" value="0" size="3" />
+          </div>
+        </li>
+        <li class="form-line" data-type="control_checkbox" id="id_63">
+          <label class="form-label form-label-top form-label-auto" id="label_63" for="input_63"> by using this service do you feel spiritually stronger </label>
+          <div id="cid_63" class="form-input-wide">
+            <div class="form-single-column" role="group" aria-labelledby="label_63" data-component="checkbox">
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_63_0" name="q63_byUsing63[]" value="a. much more" data-calcvalue="2" data-maxselection="1" />
+                <label id="label_input_63_0" for="input_63_0"> a. much more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_63_1" name="q63_byUsing63[]" value="b. more" data-calcvalue="1" data-maxselection="1" />
+                <label id="label_input_63_1" for="input_63_1"> b. more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_63_2" name="q63_byUsing63[]" value="c. no change" data-calcvalue="0" data-maxselection="1" />
+                <label id="label_input_63_2" for="input_63_2"> c. no change </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_63_3" name="q63_byUsing63[]" value="d. less" data-calcvalue="-1" data-maxselection="1" />
+                <label id="label_input_63_3" for="input_63_3"> d. less </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_63_4" name="q63_byUsing63[]" value="e. much less" data-calcvalue="-2" data-maxselection="1" />
+                <label id="label_input_63_4" for="input_63_4"> e. much less </label>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="form-line form-line-column form-col-1 always-hidden" data-type="control_calculation" id="id_35">
+          <label class="form-label form-label-top" id="label_35" for="input_35"> answer value for Q4. </label>
+          <div id="cid_35" class="form-input-wide always-hidden">
+            <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox" data-type="input-textbox" id="input_35" name="q35_calculation35" value="0" size="3" />
+          </div>
+        </li>
+      </ul>
+      <ul class="form-section-closed" style="height: 60px;clear:both;" id="section_78">
+        <li id="cid_78" class="form-input-wide" data-type="control_collapse">
+          <div class="form-collapse-table" id="collapse_78" data-component="collapse">
+            <span class="form-collapse-mid" id="collapse-text_78">
+              Click here to view questions
+            </span>
+            <span class="form-collapse-right form-collapse-right-hide">
+               
+            </span>
+          </div>
+        </li>
+        <li class="form-line form-line-column form-col-1 form-line-column-clear" data-type="control_checkbox" id="id_64">
+          <label class="form-label form-label-top" id="label_64" for="input_64"> by using this service do you feel more able to set goals </label>
+          <div id="cid_64" class="form-input-wide">
+            <div class="form-single-column" role="group" aria-labelledby="label_64" data-component="checkbox">
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_64_0" name="q64_byUsing64[]" value="a. much more" data-calcvalue="2" data-maxselection="1" />
+                <label id="label_input_64_0" for="input_64_0"> a. much more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_64_1" name="q64_byUsing64[]" value="b. more" data-calcvalue="1" data-maxselection="1" />
+                <label id="label_input_64_1" for="input_64_1"> b. more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_64_2" name="q64_byUsing64[]" value="c. no change" data-calcvalue="0" data-maxselection="1" />
+                <label id="label_input_64_2" for="input_64_2"> c. no change </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_64_3" name="q64_byUsing64[]" value="d. less" data-calcvalue="-1" data-maxselection="1" />
+                <label id="label_input_64_3" for="input_64_3"> d. less </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_64_4" name="q64_byUsing64[]" value="e. much less" data-calcvalue="-2" data-maxselection="1" />
+                <label id="label_input_64_4" for="input_64_4"> e. much less </label>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="form-line form-line-column form-col-1 form-line-column-clear always-hidden" data-type="control_calculation" id="id_40">
+          <label class="form-label form-label-top" id="label_40" for="input_40"> answer value for Q5. </label>
+          <div id="cid_40" class="form-input-wide always-hidden">
+            <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox" data-type="input-textbox" id="input_40" name="q40_calculation40" value="0" size="3" />
+          </div>
+        </li>
+        <li class="form-line" data-type="control_checkbox" id="id_65">
+          <label class="form-label form-label-top form-label-auto" id="label_65" for="input_65"> by using this service do you feel more valued as a person </label>
+          <div id="cid_65" class="form-input-wide">
+            <div class="form-single-column" role="group" aria-labelledby="label_65" data-component="checkbox">
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_65_0" name="q65_clickTo65[]" value="a. much more" data-calcvalue="2" data-maxselection="1" />
+                <label id="label_input_65_0" for="input_65_0"> a. much more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_65_1" name="q65_clickTo65[]" value="b. more" data-calcvalue="1" data-maxselection="1" />
+                <label id="label_input_65_1" for="input_65_1"> b. more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_65_2" name="q65_clickTo65[]" value="c. no change" data-calcvalue="0" data-maxselection="1" />
+                <label id="label_input_65_2" for="input_65_2"> c. no change </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_65_3" name="q65_clickTo65[]" value="d. less" data-calcvalue="-1" data-maxselection="1" />
+                <label id="label_input_65_3" for="input_65_3"> d. less </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_65_4" name="q65_clickTo65[]" value="e. much less" data-calcvalue="-2" data-maxselection="1" />
+                <label id="label_input_65_4" for="input_65_4"> e. much less </label>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="form-line form-line-column form-col-1 always-hidden" data-type="control_calculation" id="id_41">
+          <label class="form-label form-label-top" id="label_41" for="input_41"> answer value for Q6. </label>
+          <div id="cid_41" class="form-input-wide always-hidden">
+            <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox" data-type="input-textbox" id="input_41" name="q41_answerValue" value="0" size="3" />
+          </div>
+        </li>
+        <li class="form-line" data-type="control_checkbox" id="id_66">
+          <label class="form-label form-label-top form-label-auto" id="label_66" for="input_66"> by using this service do you feel more able to deal with challenges </label>
+          <div id="cid_66" class="form-input-wide">
+            <div class="form-single-column" role="group" aria-labelledby="label_66" data-component="checkbox">
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_66_0" name="q66_clickTo66[]" value="a. much more" data-calcvalue="2" data-maxselection="1" />
+                <label id="label_input_66_0" for="input_66_0"> a. much more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_66_1" name="q66_clickTo66[]" value="b. more" data-calcvalue="1" data-maxselection="1" />
+                <label id="label_input_66_1" for="input_66_1"> b. more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_66_2" name="q66_clickTo66[]" value="c. no change" data-calcvalue="0" data-maxselection="1" />
+                <label id="label_input_66_2" for="input_66_2"> c. no change </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_66_3" name="q66_clickTo66[]" value="d. less" data-calcvalue="-1" data-maxselection="1" />
+                <label id="label_input_66_3" for="input_66_3"> d. less </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_66_4" name="q66_clickTo66[]" value="e. much less" data-calcvalue="-2" data-maxselection="1" />
+                <label id="label_input_66_4" for="input_66_4"> e. much less </label>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="form-line form-line-column form-col-1 always-hidden" data-type="control_calculation" id="id_42">
+          <label class="form-label form-label-top" id="label_42" for="input_42"> answer value for Q7. </label>
+          <div id="cid_42" class="form-input-wide always-hidden">
+            <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox" data-type="input-textbox" id="input_42" name="q42_answerValue42" value="0" size="3" />
+          </div>
+        </li>
+        <li class="form-line" data-type="control_checkbox" id="id_67">
+          <label class="form-label form-label-top form-label-auto" id="label_67" for="input_67"> by using this service do you feel more informed to make decisions </label>
+          <div id="cid_67" class="form-input-wide">
+            <div class="form-single-column" role="group" aria-labelledby="label_67" data-component="checkbox">
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_67_0" name="q67_clickTo67[]" value="a. much more" data-calcvalue="2" data-maxselection="1" />
+                <label id="label_input_67_0" for="input_67_0"> a. much more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_67_1" name="q67_clickTo67[]" value="b. more" data-calcvalue="1" data-maxselection="1" />
+                <label id="label_input_67_1" for="input_67_1"> b. more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_67_2" name="q67_clickTo67[]" value="c. no change" data-calcvalue="0" data-maxselection="1" />
+                <label id="label_input_67_2" for="input_67_2"> c. no change </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_67_3" name="q67_clickTo67[]" value="d. less" data-calcvalue="-1" data-maxselection="1" />
+                <label id="label_input_67_3" for="input_67_3"> d. less </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_67_4" name="q67_clickTo67[]" value="e. much less" data-calcvalue="-2" data-maxselection="1" />
+                <label id="label_input_67_4" for="input_67_4"> e. much less </label>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="form-line form-line-column form-col-1 always-hidden" data-type="control_calculation" id="id_43">
+          <label class="form-label form-label-top" id="label_43" for="input_43"> answer value for Q8. </label>
+          <div id="cid_43" class="form-input-wide always-hidden">
+            <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox" data-type="input-textbox" id="input_43" name="q43_answerValue43" value="0" size="3" />
+          </div>
+        </li>
+      </ul>
+      <ul class="form-section-closed" style="height: 60px;clear:both;" id="section_84">
+        <li id="cid_84" class="form-input-wide" data-type="control_collapse">
+          <div class="form-collapse-table" id="collapse_84" data-component="collapse">
+            <span class="form-collapse-mid" id="collapse-text_84">
+              Click here to view questions
+            </span>
+            <span class="form-collapse-right form-collapse-right-hide">
+               
+            </span>
+          </div>
+        </li>
+        <li class="form-line" data-type="control_checkbox" id="id_68">
+          <label class="form-label form-label-top form-label-auto" id="label_68" for="input_68"> by using this service are you more able to participate </label>
+          <div id="cid_68" class="form-input-wide">
+            <div class="form-single-column" role="group" aria-labelledby="label_68" data-component="checkbox">
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_68_0" name="q68_byUsing68[]" value="a. much more" data-calcvalue="2" data-maxselection="1" />
+                <label id="label_input_68_0" for="input_68_0"> a. much more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_68_1" name="q68_byUsing68[]" value="b. more" data-calcvalue="1" data-maxselection="1" />
+                <label id="label_input_68_1" for="input_68_1"> b. more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_68_2" name="q68_byUsing68[]" value="c. no change" data-calcvalue="0" data-maxselection="1" />
+                <label id="label_input_68_2" for="input_68_2"> c. no change </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_68_3" name="q68_byUsing68[]" value="d. less" data-calcvalue="-1" data-maxselection="1" />
+                <label id="label_input_68_3" for="input_68_3"> d. less </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_68_4" name="q68_byUsing68[]" value="e. much less" data-calcvalue="-2" data-maxselection="1" />
+                <label id="label_input_68_4" for="input_68_4"> e. much less </label>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="form-line form-line-column form-col-1 always-hidden" data-type="control_calculation" id="id_48">
+          <label class="form-label form-label-top" id="label_48" for="input_48"> answer value for Q9. </label>
+          <div id="cid_48" class="form-input-wide always-hidden">
+            <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox" data-type="input-textbox" id="input_48" name="q48_calculation48" value="0" size="3" />
+          </div>
+        </li>
+        <li class="form-line" data-type="control_checkbox" id="id_69">
+          <label class="form-label form-label-top form-label-auto" id="label_69" for="input_69"> by using this service are you more able to manage barriers </label>
+          <div id="cid_69" class="form-input-wide">
+            <div class="form-single-column" role="group" aria-labelledby="label_69" data-component="checkbox">
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_69_0" name="q69_byUsing[]" value="a. much more" data-calcvalue="2" data-maxselection="1" />
+                <label id="label_input_69_0" for="input_69_0"> a. much more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_69_1" name="q69_byUsing[]" value="b. more" data-calcvalue="1" data-maxselection="1" />
+                <label id="label_input_69_1" for="input_69_1"> b. more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_69_2" name="q69_byUsing[]" value="c. no change" data-calcvalue="0" data-maxselection="1" />
+                <label id="label_input_69_2" for="input_69_2"> c. no change </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_69_3" name="q69_byUsing[]" value="d. less" data-calcvalue="-1" data-maxselection="1" />
+                <label id="label_input_69_3" for="input_69_3"> d. less </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_69_4" name="q69_byUsing[]" value="e. much less" data-calcvalue="-2" data-maxselection="1" />
+                <label id="label_input_69_4" for="input_69_4"> e. much less </label>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="form-line form-line-column form-col-1 always-hidden" data-type="control_calculation" id="id_49">
+          <label class="form-label form-label-top" id="label_49" for="input_49"> answer value for Q10. </label>
+          <div id="cid_49" class="form-input-wide always-hidden">
+            <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox" data-type="input-textbox" id="input_49" name="q49_answerValue49" value="0" size="3" />
+          </div>
+        </li>
+        <li class="form-line" data-type="control_checkbox" id="id_70">
+          <label class="form-label form-label-top form-label-auto" id="label_70" for="input_70"> by using this service are you more committed to your wellbeing </label>
+          <div id="cid_70" class="form-input-wide">
+            <div class="form-single-column" role="group" aria-labelledby="label_70" data-component="checkbox">
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_70_0" name="q70_byUsing70[]" value="a. much more" data-calcvalue="2" data-maxselection="1" />
+                <label id="label_input_70_0" for="input_70_0"> a. much more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_70_1" name="q70_byUsing70[]" value="b. more" data-calcvalue="1" data-maxselection="1" />
+                <label id="label_input_70_1" for="input_70_1"> b. more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_70_2" name="q70_byUsing70[]" value="c. no change" data-calcvalue="0" data-maxselection="1" />
+                <label id="label_input_70_2" for="input_70_2"> c. no change </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_70_3" name="q70_byUsing70[]" value="d. less" data-calcvalue="-1" data-maxselection="1" />
+                <label id="label_input_70_3" for="input_70_3"> d. less </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_70_4" name="q70_byUsing70[]" value="e. much less" data-calcvalue="-2" data-maxselection="1" />
+                <label id="label_input_70_4" for="input_70_4"> e. much less </label>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="form-line form-line-column form-col-1 always-hidden" data-type="control_calculation" id="id_50">
+          <label class="form-label form-label-top" id="label_50" for="input_50"> answer value for Q11. </label>
+          <div id="cid_50" class="form-input-wide always-hidden">
+            <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox" data-type="input-textbox" id="input_50" name="q50_answerValue50" value="0" size="3" />
+          </div>
+        </li>
+        <li class="form-line" data-type="control_checkbox" id="id_71">
+          <label class="form-label form-label-top form-label-auto" id="label_71" for="input_71"> by using this service are you more physically healthier </label>
+          <div id="cid_71" class="form-input-wide">
+            <div class="form-single-column" role="group" aria-labelledby="label_71" data-component="checkbox">
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_71_0" name="q71_byUsing71[]" value="a. much more" data-calcvalue="2" data-maxselection="1" />
+                <label id="label_input_71_0" for="input_71_0"> a. much more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_71_1" name="q71_byUsing71[]" value="b. more" data-calcvalue="1" data-maxselection="1" />
+                <label id="label_input_71_1" for="input_71_1"> b. more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_71_2" name="q71_byUsing71[]" value="c. no change" data-calcvalue="0" data-maxselection="1" />
+                <label id="label_input_71_2" for="input_71_2"> c. no change </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_71_3" name="q71_byUsing71[]" value="d. less" data-calcvalue="-1" data-maxselection="1" />
+                <label id="label_input_71_3" for="input_71_3"> d. less </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_71_4" name="q71_byUsing71[]" value="e. much less" data-calcvalue="-2" data-maxselection="1" />
+                <label id="label_input_71_4" for="input_71_4"> e. much less </label>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="form-line form-line-column form-col-1 always-hidden" data-type="control_calculation" id="id_51">
+          <label class="form-label form-label-top" id="label_51" for="input_51"> answer value for Q12 </label>
+          <div id="cid_51" class="form-input-wide always-hidden">
+            <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox" data-type="input-textbox" id="input_51" name="q51_answerValue51" value="0" size="3" />
+          </div>
+        </li>
+      </ul>
+      <ul class="form-section-closed" style="height: 60px;clear:both;" id="section_85">
+        <li id="cid_85" class="form-input-wide" data-type="control_collapse">
+          <div class="form-collapse-table" id="collapse_85" data-component="collapse">
+            <span class="form-collapse-mid" id="collapse-text_85">
+              Click here to view questions
+            </span>
+            <span class="form-collapse-right form-collapse-right-hide">
+               
+            </span>
+          </div>
+        </li>
+        <li class="form-line" data-type="control_checkbox" id="id_72">
+          <label class="form-label form-label-top form-label-auto" id="label_72" for="input_72"> by using this service are you more able to communicate with your whanau </label>
+          <div id="cid_72" class="form-input-wide">
+            <div class="form-single-column" role="group" aria-labelledby="label_72" data-component="checkbox">
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_72_0" name="q72_byUsing72[]" value="a. much more" data-calcvalue="2" data-maxselection="1" />
+                <label id="label_input_72_0" for="input_72_0"> a. much more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_72_1" name="q72_byUsing72[]" value="b. more" data-calcvalue="1" data-maxselection="1" />
+                <label id="label_input_72_1" for="input_72_1"> b. more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_72_2" name="q72_byUsing72[]" value="c. no change" data-calcvalue="0" data-maxselection="1" />
+                <label id="label_input_72_2" for="input_72_2"> c. no change </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_72_3" name="q72_byUsing72[]" value="d. less" data-calcvalue="-1" data-maxselection="1" />
+                <label id="label_input_72_3" for="input_72_3"> d. less </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_72_4" name="q72_byUsing72[]" value="e. much less" data-calcvalue="-2" data-maxselection="1" />
+                <label id="label_input_72_4" for="input_72_4"> e. much less </label>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="form-line form-line-column form-col-1 always-hidden" data-type="control_calculation" id="id_56">
+          <label class="form-label form-label-top" id="label_56" for="input_56"> answer value for Q13 </label>
+          <div id="cid_56" class="form-input-wide always-hidden">
+            <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox" data-type="input-textbox" id="input_56" name="q56_answerValue56" value="0" size="3" />
+          </div>
+        </li>
+        <li class="form-line" data-type="control_checkbox" id="id_73">
+          <label class="form-label form-label-top form-label-auto" id="label_73" for="input_73"> by using this service are you more confident in your relationships </label>
+          <div id="cid_73" class="form-input-wide">
+            <div class="form-single-column" role="group" aria-labelledby="label_73" data-component="checkbox">
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_73_0" name="q73_clickTo73[]" value="a. much more" data-calcvalue="2" data-maxselection="1" />
+                <label id="label_input_73_0" for="input_73_0"> a. much more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_73_1" name="q73_clickTo73[]" value="b. more" data-calcvalue="1" data-maxselection="1" />
+                <label id="label_input_73_1" for="input_73_1"> b. more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_73_2" name="q73_clickTo73[]" value="c. no change" data-calcvalue="0" data-maxselection="1" />
+                <label id="label_input_73_2" for="input_73_2"> c. no change </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_73_3" name="q73_clickTo73[]" value="d. less" data-calcvalue="-1" data-maxselection="1" />
+                <label id="label_input_73_3" for="input_73_3"> d. less </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_73_4" name="q73_clickTo73[]" value="e. much less" data-calcvalue="-2" data-maxselection="1" />
+                <label id="label_input_73_4" for="input_73_4"> e. much less </label>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="form-line form-line-column form-col-1 always-hidden" data-type="control_calculation" id="id_57">
+          <label class="form-label form-label-top" id="label_57" for="input_57"> answer value for Q14 </label>
+          <div id="cid_57" class="form-input-wide always-hidden">
+            <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox" data-type="input-textbox" id="input_57" name="q57_answerValue57" value="0" size="3" />
+          </div>
+        </li>
+        <li class="form-line" data-type="control_checkbox" id="id_74">
+          <label class="form-label form-label-top form-label-auto" id="label_74" for="input_74"> by using this service are you clearer about how your decisions involve your whanau </label>
+          <div id="cid_74" class="form-input-wide">
+            <div class="form-single-column" role="group" aria-labelledby="label_74" data-component="checkbox">
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_74_0" name="q74_clickTo74[]" value="a. much more" data-calcvalue="2" data-maxselection="1" />
+                <label id="label_input_74_0" for="input_74_0"> a. much more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_74_1" name="q74_clickTo74[]" value="b. more" data-calcvalue="1" data-maxselection="1" />
+                <label id="label_input_74_1" for="input_74_1"> b. more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_74_2" name="q74_clickTo74[]" value="c. no change" data-calcvalue="0" data-maxselection="1" />
+                <label id="label_input_74_2" for="input_74_2"> c. no change </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_74_3" name="q74_clickTo74[]" value="d. less" data-calcvalue="-1" data-maxselection="1" />
+                <label id="label_input_74_3" for="input_74_3"> d. less </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_74_4" name="q74_clickTo74[]" value="e. much less" data-calcvalue="-2" data-maxselection="1" />
+                <label id="label_input_74_4" for="input_74_4"> e. much less </label>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="form-line form-line-column form-col-1 always-hidden" data-type="control_calculation" id="id_58">
+          <label class="form-label form-label-top" id="label_58" for="input_58"> answer value for Q15 </label>
+          <div id="cid_58" class="form-input-wide always-hidden">
+            <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox" data-type="input-textbox" id="input_58" name="q58_answerValue58" value="0" size="3" />
+          </div>
+        </li>
+        <li class="form-line" data-type="control_checkbox" id="id_75">
+          <label class="form-label form-label-top form-label-auto" id="label_75" for="input_75"> by using this service are you more able to participate in the community </label>
+          <div id="cid_75" class="form-input-wide">
+            <div class="form-single-column" role="group" aria-labelledby="label_75" data-component="checkbox">
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_75_0" name="q75_clickTo75[]" value="a. much more" data-calcvalue="2" data-maxselection="1" />
+                <label id="label_input_75_0" for="input_75_0"> a. much more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_75_1" name="q75_clickTo75[]" value="b. more" data-calcvalue="1" data-maxselection="1" />
+                <label id="label_input_75_1" for="input_75_1"> b. more </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_75_2" name="q75_clickTo75[]" value="c. no change" data-calcvalue="0" data-maxselection="1" />
+                <label id="label_input_75_2" for="input_75_2"> c. no change </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_75_3" name="q75_clickTo75[]" value="d. less" data-calcvalue="-1" data-maxselection="1" />
+                <label id="label_input_75_3" for="input_75_3"> d. less </label>
+              </span>
+              <span class="form-checkbox-item" style="clear:left">
+                <span class="dragger-item">
+                </span>
+                <input type="checkbox" class="form-checkbox validate[maxselection]" id="input_75_4" name="q75_clickTo75[]" value="e. much less" data-calcvalue="-2" data-maxselection="1" />
+                <label id="label_input_75_4" for="input_75_4"> e. much less </label>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="form-line form-line-column form-col-1 always-hidden" data-type="control_calculation" id="id_59">
+          <label class="form-label form-label-top" id="label_59" for="input_59"> answer value for Q16 </label>
+          <div id="cid_59" class="form-input-wide always-hidden">
+            <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox" data-type="input-textbox" id="input_59" name="q59_answerValue59" value="0" size="3" />
+          </div>
+        </li>
+      </ul>
+      <ul class="form-section-closed" style="height: 60px;clear:both;" id="section_82">
+        <li id="cid_82" class="form-input-wide" data-type="control_collapse">
+          <div class="form-collapse-table" id="collapse_82" data-component="collapse">
+            <span class="form-collapse-mid" id="collapse-text_82">
+              Click here to view questions
+            </span>
+            <span class="form-collapse-right form-collapse-right-hide">
+               
+            </span>
+          </div>
+        </li>
+        <li class="form-line" data-type="control_textarea" id="id_13">
+          <label class="form-label form-label-top form-label-auto" id="label_13" for="input_13"> What are your main goals? </label>
+          <div id="cid_13" class="form-input-wide">
+            <textarea id="input_13" class="form-textarea" name="q13_clickTo13" cols="40" rows="6" style="overflow-y:hidden" data-widearea="enable" data-component="textarea" aria-labelledby="label_13"></textarea>
+          </div>
+        </li>
+      </ul>
+      <ul class="form-section" id="section_83">
+        <li id="cid_83" class="form-input-wide" data-type="control_collapse">
+          <div class="form-collapse-table form-collapse-hidden" id="collapse_83" data-component="collapse">
+            <span class="form-collapse-mid" id="collapse-text_83">
+              Submit
+            </span>
+            <span class="form-collapse-right form-collapse-right-show">
+               
+            </span>
+          </div>
+        </li>
+        <li class="form-line form-line-column form-col-1" data-type="control_datetime" id="id_20">
+          <label class="form-label form-label-top form-label-auto" id="label_20" for="lite_mode_20"> Todays Date </label>
+          <div id="cid_20" class="form-input-wide">
+            <div data-wrapper-react="true">
+              <div style="display:none">
+                <span class="form-sub-label-container" style="vertical-align:top">
+                  <input type="tel" readonly="" class="currentDate form-textbox validate[limitDate]" id="day_20" name="q20_date20[day]" size="2" data-maxlength="2" data-age="" maxLength="2" value="27" autoComplete="off" aria-labelledby="label_20 sublabel_20_day" />
+                  <span class="date-separate" aria-hidden="true">
+                     /
+                  </span>
+                  <label class="form-sub-label" for="day_20" id="sublabel_20_day" style="min-height:13px" aria-hidden="false"> Day </label>
+                </span>
+                <span class="form-sub-label-container" style="vertical-align:top">
+                  <input type="tel" readonly="" class="form-textbox validate[limitDate]" id="month_20" name="q20_date20[month]" size="2" data-maxlength="2" data-age="" maxLength="2" value="04" autoComplete="off" aria-labelledby="label_20 sublabel_20_month" />
+                  <span class="date-separate" aria-hidden="true">
+                     /
+                  </span>
+                  <label class="form-sub-label" for="month_20" id="sublabel_20_month" style="min-height:13px" aria-hidden="false"> Month </label>
+                </span>
+                <span class="form-sub-label-container" style="vertical-align:top">
+                  <input type="tel" readonly="" class="form-textbox validate[limitDate]" id="year_20" name="q20_date20[year]" size="4" data-maxlength="4" data-age="" maxLength="4" value="2021" autoComplete="off" aria-labelledby="label_20 sublabel_20_year" />
+                  <label class="form-sub-label" for="year_20" id="sublabel_20_year" style="min-height:13px" aria-hidden="false"> Year </label>
+                </span>
+              </div>
+              <span class="form-sub-label-container" style="vertical-align:top">
+                <input type="text" class="form-textbox validate[limitDate, validateLiteDate]" id="lite_mode_20" size="12" data-maxlength="12" maxLength="12" data-age="" value="27/04/2021" readonly="" data-format="ddmmyyyy" data-seperator="/" placeholder="dd/mm/yyyy" autoComplete="off" aria-labelledby="label_20 sublabel_20_litemode" />
+                <img class=" newDefaultTheme-dateIcon icon-liteMode" alt="Pick a Date" id="input_20_pick" src="https://cdn.jotfor.ms/images/calendar.png" data-component="datetime" aria-hidden="true" data-allow-time="No" data-version="v1" />
+                <label class="form-sub-label" for="lite_mode_20" id="sublabel_20_litemode" style="min-height:13px" aria-hidden="false"> Date sets automatically </label>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li class="form-line form-line-column form-col-1 form-line-column-clear" data-type="control_calculation" id="id_26">
+          <label class="form-label form-label-top" id="label_26" for="input_26"> Total </label>
+          <div id="cid_26" class="form-input-wide">
+            <input type="text" data-component="calculation" data-defaultvalue="0" class="form-textbox" data-type="input-textbox" id="input_26" name="q26_total" value="0" size="5" />
+          </div>
+        </li>
+        <li class="form-line form-line-column form-col-1 form-line-column-clear always-hidden" data-type="control_email" id="id_87">
+          <label class="form-label form-label-top" id="label_87" for="input_87"> Email </label>
+          <div id="cid_87" class="form-input-wide always-hidden">
+            <span class="form-sub-label-container" style="vertical-align:top">
+              <input type="email" id="input_87" name="q87_email" class="form-readonly form-textbox validate[Email]" size="30" value="enquiries@teroopuwaiora.nz" tabindex="-1" data-component="email" aria-labelledby="label_87 sublabel_input_87" readonly="" />
+              <label class="form-sub-label" for="input_87" id="sublabel_input_87" style="min-height:13px" aria-hidden="false"> example@example.com </label>
+            </span>
+          </div>
+        </li>
+        <li class="form-line" data-type="control_button" id="id_17">
+          <div id="cid_17" class="form-input-wide">
+            <div style="text-align:center" data-align="center" class="form-buttons-wrapper form-buttons-center   jsTest-button-wrapperField">
+              <button id="input_scl_17" type="button" class="form-submit-button form-sacl-button js-new-sacl-button  form-submit-button-simple_black jf-form-buttons sacl-button" data-component="button">
+                Save
+              </button>
+              <button id="input_17" type="submit" class="form-submit-button form-submit-button-simple_black submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">
+                Submit
+              </button>
+              <span>
+                 
+              </span>
+              <button id="input_reset_17" type="reset" class="form-submit-reset form-submit-button-simple_black jf-form-buttons" data-component="button">
+                Clear Form
+              </button>
+              <span>
+                 
+              </span>
+              <button id="input_print_17" type="button" class="form-submit-print form-submit-button-simple_black jf-form-buttons" data-component="button">
+                <img src="https://cdn.jotfor.ms/images/printer.png" style="vertical-align:middle" />
+                <span id="span_print_17" class="span_print">
+                  Print Form
+                </span>
+              </button>
+            </div>
+          </div>
+        </li>
+        <li style="clear:both">
+        </li>
+        <li style="display:none">
+          Should be Empty:
+          <input type="text" name="website" value="" />
+        </li>
+      </ul>
+  </div>
+  <script>
+  JotForm.showJotFormPowered = "0";
+  </script>
+  <script>
+  JotForm.poweredByText = "Powered by JotForm";
+  </script>
+  <input type="hidden" class="simple_spc" id="simple_spc" name="simple_spc" value="72004016693853" />
+  <script type="text/javascript">
+  var all_spc = document.querySelectorAll("form[id='72004016693853'] .si" + "mple" + "_spc");
+for (var i = 0; i < all_spc.length; i++)
+{
+  all_spc[i].value = "72004016693853-72004016693853";
+}
+  </script>
+</form>
+<script src="https://cdn.jotfor.ms/js/vendor/widearea/widearea.js?v=3.3.25077" type="text/javascript"></script>
+<link href="https://cdn.jotfor.ms/js/vendor/widearea/widearea.css?v=3.3.25077" type="text/css" rel="stylesheet" />
+<script type="text/javascript">window.GOOGLE_SIGNON = "172124630376-qk1qmdfmur2ojaf39e070iqhpt2foaip.apps.googleusercontent.com"</script>
+<script type="text/javascript">window.FACEBOOK_SIGNON_APP_ID = "1140740696088074"</script>
+<script>window.JotFormAPIEndpoint = "https://api.jotform.com"; </script>
+<script>window.___JFsclActive = true; </script>
+<script>window.JFForm = { id: '72004016693853', skippable: true, isHipaa: '' };</script> 
+<script src="https://cdn.jotfor.ms//common/FormUserScripts.js"></script>
